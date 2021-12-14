@@ -1,0 +1,135 @@
+/* ------------------------------ */
+/* Tags */
+/* ------------------------------ */
+html {    
+    font-family: Arial, serif;
+    font-size: 18px;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: silver;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    color: green;
+}
+
+a:hover {
+    text-shadow: 1px 1px 3px black;
+}
+
+input[type=text] {
+    font-family: Arial, serif;
+    font-size: 18px;
+    width: 180px;
+    border: 2px solid black;
+}
+
+input[type=text]:focus {
+    box-shadow: 1px 1px 8px green;
+}
+
+/* ------------------------------ */
+/* Classes */
+/* ------------------------------ */
+.align-ch {
+    text-align: center;
+}
+
+.align-r {
+    text-align: right;
+}
+
+.align-l {
+    text-align: left;
+}
+
+.tbl-b {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.bld20 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.r16 {
+    color: red;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.pb5 {
+    padding-bottom: 5px;
+}
+
+.btn-b {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 15px 15px 0;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    background-color: dodgerblue;
+    box-shadow: 0 2px darkblue;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+}
+
+.btn-b:hover {
+    background-color: deepskyblue;
+}
+
+.btn-g {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 15px 15px 0;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    background-color: limegreen;
+    box-shadow: 0 2px darkgreen;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+}
+
+.btn-g:hover {
+    background-color: lawngreen;
+}

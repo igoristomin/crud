@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+
+<body>
+    <h2 class="align-ch">&#128526; Customers</h2>
+    <div th:switch="${!#lists.isEmpty(customers)}">
+        <h3 class="align-ch" th:case="false">No records</h3>
+        <div th:case="*">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="tbl-b">Name</th>
+                        <th class="tbl-b">Email</th>
+                        <th class="tbl-b" colspan="2">&#128272;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="customer : ${customers}">
+                        <td class="tbl-b" th:text="${customer.name}"></td>
+                        <td class="tbl-b" th:text="${customer.email}"></td>
+                        <td class="tbl-b"><a th:href="@{/update/{id}(id=${customer.id})}">&#128295;</a></td>
+                        <td class="tbl-b"><a th:href="@{/delete/{id}(id=${customer.id})}">&#10060;</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="align-ch"><a class="link" href="/create">Create customer</a></p>
+    </div>
+</body>
+
+</html>

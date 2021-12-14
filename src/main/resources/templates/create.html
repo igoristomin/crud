@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create customer</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="align-ch">
+        <h2>&#128118; Create customer</h2>
+        <form th:action="@{/create}" th:object="${customer}" method="post">
+            <table>
+                <tbody>
+                    <!-- Name -->
+                    <tr>
+                        <td class="align-r pr5 bld20">Name</td>
+                        <td class="align-l"><input type="text" th:field="*{name}" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td class="pb5" colspan="2"><div class="r16" th:if="${#fields.hasErrors('name')}"
+                                                         th:errors="*{name}"></div></td>
+                    </tr>
+                    <!-- Email -->
+                    <tr>
+                        <td class="align-r pr5 bld20">Email</td>
+                        <td class="align-l"><input type="text" th:field="*{email}" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td class="pb5" colspan="2"><div class="r16" th:if="${#fields.hasErrors('email')}"
+                                                         th:errors="*{email}"></div></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div th:insert="blocks/buttons :: save-back"></div>
+        </form>
+    </div>
+</body>
+
+</html>
