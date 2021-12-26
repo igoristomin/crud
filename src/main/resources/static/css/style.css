@@ -2,7 +2,7 @@
 /* Tags */
 /* ------------------------------ */
 html {    
-    font-family: Arial, serif;
+    font-family: Tahoma, sans-serif;
     font-size: 18px;
 }
 
@@ -30,15 +30,9 @@ a:hover {
     text-shadow: 1px 1px 3px black;
 }
 
-input[type=text] {
-    font-family: Arial, serif;
+input {
+    font-family: Tahoma, sans-serif;
     font-size: 18px;
-    width: 180px;
-    border: 2px solid black;
-}
-
-input[type=text]:focus {
-    box-shadow: 1px 1px 8px green;
 }
 
 /* ------------------------------ */
@@ -54,6 +48,15 @@ input[type=text]:focus {
 
 .align-l {
     text-align: left;
+}
+
+.input {
+    width: 180px;
+    border: 2px solid black;
+}
+
+.input:focus {
+    box-shadow: 1px 1px 8px green;
 }
 
 .tbl-b {
@@ -90,7 +93,6 @@ input[type=text]:focus {
     border-radius: 4px;
     height: 32px;
     line-height: 32px;
-    font-size: 18px;
     font-weight: 500;
     text-decoration: none;
     color: black;
@@ -117,7 +119,6 @@ input[type=text]:focus {
     border-radius: 4px;
     height: 32px;
     line-height: 32px;
-    font-size: 18px;
     font-weight: 500;
     text-decoration: none;
     color: black;
