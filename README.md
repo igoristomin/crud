@@ -11,8 +11,8 @@ Simple CRUD application. The index page displays a list of customers with names 
 * Dependencies: Spring Data JPA, Thymeleaf, Validation, Spring Web, Lombok, PostgreSQL Driver
 
 ## Important files
-* Builder configuration: \build.gradle
-* Application properties: \src\main\resources\application.properties
+* Builder configuration: /build.gradle
+* Application properties: /src/main/resources/application.properties
 
 ## Backend schema
 * MainController <- CombineService <- CustomerRepository <- crud (database) <- Customer
@@ -22,7 +22,7 @@ Simple CRUD application. The index page displays a list of customers with names 
 2. Run this project in development environment
 3. Open http://localhost:8081 in browser
 
-## Release Notes
+## Release notes
 * Project type: Web application
 * Date of release: 14 December 2021
 * Current version: 1.0
