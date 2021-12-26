@@ -16,7 +16,7 @@
                     <!-- Name -->
                     <tr>
                         <td class="align-r pr5 bld20">Name</td>
-                        <td class="align-l"><input type="text" th:field="*{name}" id="name"></td>
+                        <td class="align-l"><input class="input" type="text" th:field="*{name}" id="name"></td>
                     </tr>
                     <tr>
                         <td class="pb5" colspan="2"><div class="r16" th:if="${#fields.hasErrors('name')}"
@@ -25,7 +25,7 @@
                     <!-- Email -->
                     <tr>
                         <td class="align-r pr5 bld20">Email</td>
-                        <td class="align-l"><input type="text" th:field="*{email}" id="email"></td>
+                        <td class="align-l"><input class="input" type="text" th:field="*{email}" id="email"></td>
                     </tr>
                     <tr>
                         <td class="pb5" colspan="2"><div class="r16" th:if="${#fields.hasErrors('email')}"
