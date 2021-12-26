@@ -25,4 +25,5 @@ Simple CRUD application. The index page displays a list of customers with names 
 ## Release notes
 * Project type: Web application
 * Date of release: 14 December 2021
-* Current version: 1.0
+* Date of last update: 26 December 2021
+* Current version: 1.1
