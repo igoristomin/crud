@@ -15,7 +15,7 @@ Simple CRUD application. The index page displays a list of customers with names 
 * Application properties: /src/main/resources/application.properties
 
 ## Frontend and backend schema
-![Element relationships](readme/back-schema.svg)
+![Element relationships](readme/front-back-schema.svg)
 
 ## Installation
 1. Create crud database in PostgreSQL
