@@ -14,7 +14,7 @@ Simple CRUD application. The index page displays a list of customers with names 
 * Builder configuration: /build.gradle
 * Application properties: /src/main/resources/application.properties
 
-## Backend schema
+## Frontend and backend schema
 ![Element relationships](readme/back-schema.svg)
 
 ## Installation
