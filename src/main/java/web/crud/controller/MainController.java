@@ -36,7 +36,7 @@ public class MainController {
 
     @PostMapping("/create")
     public String postCreate(@Valid Customer customer, BindingResult result, Model model) {
-        if (result.hasErrors()) return "create";
+        if(result.hasErrors()) return "create";
         customerRepository.save(customer);
         return "redirect:/";
     }
@@ -54,7 +54,7 @@ public class MainController {
 
     @PostMapping("/update/{id}")
     public String postUpdate(@PathVariable Long id, @Valid Customer customer, BindingResult result, Model model) {
-        if (result.hasErrors()) {
+        if(result.hasErrors()) {
             customer.setId(id);
             return "update";
         }
