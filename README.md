@@ -19,8 +19,10 @@ Simple CRUD application. The index page displays a list of customers with names 
 
 ## Installation
 1. Create crud database in PostgreSQL
-2. Run this project in development environment
-3. Open http://localhost:8081 in browser
+2. Install ChromeDriver (chromedriver.exe) in C:/Program Files/ChromeDriver or enter your path
+in /src/test/java/web/crud/controller/MainControllerTest.java
+3. Run this project in development environment
+4. Open http://localhost:8081 in browser
 
 ## Release notes
 * Project type: Web application
