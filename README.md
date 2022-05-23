@@ -1,7 +1,7 @@
 # CRUD
 
 ## Description
-Simple CRUD application. The index page displays a list of customers with names and emails.
+A simple CRUD application. The index page displays a list of customers with names and emails.
 
 ## Used tools
 * Platform: Spring Boot 2.6.1
@@ -15,14 +15,14 @@ Simple CRUD application. The index page displays a list of customers with names 
 * Application properties: /src/main/resources/application.properties
 
 ## Frontend and backend schema
-![Element relationships](readme/front-back-schema.svg)
+![Relationships of elements](readme/front-back-schema.svg)
 
 ## Installation
 1. Create crud database in PostgreSQL
 2. Install ChromeDriver (chromedriver.exe) in C:/Program Files/ChromeDriver or enter your path
 in /src/test/java/web/crud/controller/MainControllerTest.java
-3. Run this project in development environment
-4. Open http://localhost:8081 in browser
+3. Run this project in a development environment
+4. Open http://localhost:8081 in the browser
 
 ## Release notes
 * Project type: Web application

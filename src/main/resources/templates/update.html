@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Update customer</title>
+    <title>Update the customer</title>
     <link rel="stylesheet" type="text/css" href="/static/css/style.css">
 </head>
 
 <body>
     <div class="align-ch">
-        <h2>&#128104;&#8205;&#128295; Update customer</h2>
+        <h2>&#128104;&#8205;&#128295; Update the customer</h2>
         <form th:action="@{/update/{id}(id=${customer.id})}" th:object="${customer}" method="post">
             <table>
                 <tbody>

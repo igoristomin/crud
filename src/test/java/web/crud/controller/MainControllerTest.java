@@ -30,17 +30,17 @@ class MainControllerTest {
     @Order(1)
     @Test
     void testCreate() {
-        // Open URL
+        // Open the URL
         driver.get(url);
 
-        // Find Create customer, wait and click
+        // Find, wait and click Create a customer
         driverWait.until(ExpectedConditions.elementToBeClickable(actionElem = driver.findElement(By.xpath
-                ("//a[text()='Create customer']"))));
+                ("//a[text()='Create a customer']"))));
         actionElem.click();
 
         waitElems();
 
-        // Enter data and save
+        // Enter the data and click Save
         nameElem.sendKeys("Test");
         emailElem.sendKeys("test@email.org");
         saveElem.click();
@@ -50,17 +50,17 @@ class MainControllerTest {
     @Order(2)
     @Test
     void testUpdate() {
-        // Open URL
+        // Open the URL
         driver.get(url);
 
-        // Find 🔧 at Test, wait and click
+        // Find, wait and click 🔧 at Test
         driverWait.until(ExpectedConditions.elementToBeClickable(actionElem = driver.findElement(By.xpath
                 ("//tr[td[text()='Test']]//a[text()='\uD83D\uDD27']"))));
         actionElem.click();
 
         waitElems();
 
-        // Clear data, enter and click Save
+        // Clear, enter the data and click Save
         nameElem.clear();
         nameElem.sendKeys("Test 2");
         emailElem.clear();
@@ -72,10 +72,10 @@ class MainControllerTest {
     @Order(3)
     @Test
     void testDelete() {
-        // Open URL
+        // Open the URL
         driver.get(url);
 
-        // Find ❌ at Test 2, wait and click
+        // Find, wait and click ❌ at Test 2
         driverWait.until(ExpectedConditions.elementToBeClickable(actionElem = driver.findElement(By.xpath
                 ("//tr[td[text()='Test 2']]//a[text()='\u274C']"))));
         actionElem.click();
@@ -86,7 +86,7 @@ class MainControllerTest {
         driver.quit();
     }
 
-    // Find elems and wait
+    // Find and wait for the elements
     void waitElems() {
         driverWait.until(ExpectedConditions.elementToBeClickable(nameElem = driver.findElement(By.name("name"))));
         driverWait.until(ExpectedConditions.elementToBeClickable(emailElem = driver.findElement(By.name("email"))));
