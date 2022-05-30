@@ -13,7 +13,7 @@ class MainControllerTest {
 
     private WebDriver driver;
     private WebDriverWait driverWait;
-    private final String url = "http://localhost:8081";
+    private final String url = "http://localhost:8080";
     private WebElement actionElem;
     private WebElement nameElem;
     private WebElement emailElem;
