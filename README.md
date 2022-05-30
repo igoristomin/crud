@@ -22,7 +22,7 @@ A simple CRUD application. The index page displays a list of customers with name
 2. Install ChromeDriver (chromedriver.exe) in C:/Program Files/ChromeDriver or enter your path
 in /src/test/java/web/crud/controller/MainControllerTest.java
 3. Run this project in a development environment
-4. Open http://localhost:8081 in the browser
+4. Open http://localhost:8080 in the browser
 
 ## Release notes
 * Project type: Web application
