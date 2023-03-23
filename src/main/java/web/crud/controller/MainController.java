@@ -48,6 +48,7 @@ public class MainController {
     public String showUpdate(@PathVariable Long id, Model model) {
         Customer customer = customerRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("The record does not exist!"));
+
         model.addAttribute("customer", customer);
         return "update";
     }
@@ -58,6 +59,7 @@ public class MainController {
             customer.setId(id);
             return "update";
         }
+
         customerRepository.save(customer);
         return "redirect:/";
     }
@@ -69,6 +71,7 @@ public class MainController {
     public String runDelete(@PathVariable Long id, Model model) {
         Customer customer = customerRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("The record does not exist!"));
+
         customerRepository.delete(customer);
         return "redirect:/";
     }
