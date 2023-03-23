@@ -21,7 +21,7 @@ class MainControllerTest {
 
     @BeforeEach
     void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\ChromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:/Program Files/ChromeDriver/chromedriver.exe");
         driver = new ChromeDriver();
         driverWait = new WebDriverWait(driver, 5);
     }
