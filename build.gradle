@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'igoristomin'
-version = '1.14'
+version = '2.0'
 sourceCompatibility = '1.8'
 
 configurations {
