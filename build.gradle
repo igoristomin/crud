@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'web'
+group = 'igoristomin'
 version = '1.14'
 sourceCompatibility = '1.8'
 

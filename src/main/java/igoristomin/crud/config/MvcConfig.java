@@ -1,4 +1,4 @@
-package web.crud.config;
+package igoristomin.crud.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

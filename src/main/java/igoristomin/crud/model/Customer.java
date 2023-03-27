@@ -1,4 +1,4 @@
-package web.crud.model;
+package igoristomin.crud.model;
 
 import lombok.Data;
 import javax.persistence.Entity;

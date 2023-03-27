@@ -1,4 +1,4 @@
-package web.crud.controller;
+package igoristomin.crud.controller;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
