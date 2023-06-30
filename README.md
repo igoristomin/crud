@@ -8,7 +8,6 @@ A simple CRUD application. The index page displays a list of customers with name
 * Builder: Gradle 7.2
 * Databases: PostgreSQL 14.1
 * Languages: Java SE 8u311, HTML5, CSS3
-* Dependencies: Spring Data JPA, Thymeleaf, Validation, Spring Web, Selenium, Lombok, PostgreSQL Driver
 
 ## Important files
 * Builder configuration: /build.gradle
