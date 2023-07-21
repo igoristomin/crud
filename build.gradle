@@ -19,7 +19,7 @@ repositories {
 }
 
 ext {
-    seleniumVersion = '4.1.4'
+    seleniumVer = '4.1.4'
 }
 
 dependencies {
@@ -27,7 +27,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.seleniumhq.selenium:selenium-java:' + seleniumVersion
+    implementation 'org.seleniumhq.selenium:selenium-java:' + seleniumVer
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'org.postgresql:postgresql'
     annotationProcessor 'org.projectlombok:lombok'
