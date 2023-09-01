@@ -23,5 +23,5 @@ in /src/test/java/web/crud/controller/MainControllerTest.java
 ## Release notes
 * Project type: Web application
 * Date of release: 14 December 2021
-* Date of last update: 21 July 2023
-* Current version: 2.5
+* Date of last update: 1 September 2023
+* Current version: 2.6
