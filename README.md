@@ -13,9 +13,6 @@ A simple CRUD application. The index page displays a list of customers with name
 * Builder configuration: /build.gradle
 * Application properties: /src/main/resources/application.properties
 
-## Frontend and backend schema
-![Relationships of elements](readme/front-back-schema.svg)
-
 ## Installation
 1. Create crud database in PostgreSQL
 2. Install ChromeDriver (chromedriver.exe) in C:/Program Files/ChromeDriver or enter your path
